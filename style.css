@@ -1,0 +1,307 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.center-marg{
+  margin: 0 10%;
+}
+
+nav p a {
+  padding: 0 20px;
+}
+
+.signup{
+  border: 1px solid blue;
+  border-radius:3px;
+  color: blue;
+  margin-top: 15px;
+  padding: 5px;
+}
+button.signup:hover{
+  background-color: blue;
+  color: white;
+}
+/* nav .navbar a svg{
+  color: blue;
+} */
+
+#bs-example-navbar-collapse-1 ul li a:hover{
+  color: blue;
+}
+
+
+
+@media all and (max-width:767px) {
+
+
+  nav .navbar{
+    background-image: url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
+    margin-bottom: -30px;
+
+  }
+
+}
+#welcome{
+  background-image: url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
+  margin-top: -20px;
+  padding: 130px 10px;
+}
+#welcome h1{
+  font-size: 60px;
+  color:white;
+}
+#welcome p{
+  font-size: 20px;
+  color:white;
+
+  padding: 30px 0;
+}
+form{
+  background-color: white;
+  border-radius: 5px;
+  margin: 30px 0;
+  padding: 20px;
+}
+form h3{
+  color:#171559;
+}
+.form-group .insert-text{
+  width: 100%;
+}
+.create{
+  width: 100%;
+  background-color: #54b864;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+.googlesignup{
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px;
+}
+#welcome .form-group p{
+  color: gray;
+
+
+}
+#loghi{
+  background-color: #f3f5f9;
+  margin-top: -20px;
+  padding: 30px 10px;
+}
+#loghi h4{
+  text-align: center;
+  color: gray;
+
+}
+#loghi img{
+  width: 100%;
+  height:auto;
+
+}
+#loghi p{
+  text-align: center;
+}
+#git{
+  margin-top: 0px;
+}
+#doc{
+  margin-top: 20px;
+}
+#sla{
+  margin-top: 20px;
+}
+#has{
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+#wew{
+  margin-top: -10px;
+}
+#spl{margin-top: 30px;
+}
+
+
+@media all and (min-width:992px) {
+  #wew{
+    margin-top: 25px;
+  }
+  #spl{
+    margin-top: 50px;
+  }
+
+}
+
+
+/* prova lista */
+
+
+
+    /* ul::after{
+      content:"";
+      display:table;
+      clear: both;
+    }
+    #loghi ul li {
+      list-style: none;
+      position: relative;
+      float: left;
+    }
+    ul li img{
+      width: 100px;
+    } */
+#deploy{
+  margin: 40px auto;
+  padding: 30px;
+  text-align: left;
+  color:#171559;
+}
+
+#deploy h2, #deploy p{
+  text-align: center;
+}
+#deploy ul li{
+  margin: 20px 40px;
+  padding: 10px 20px;
+  list-style:none;
+  text-align: left;
+}
+#deploy ul li a{
+  text-decoration: none;
+  color: lightgray;
+}
+#deploy ul li a:hover{
+  color:#171559;
+}
+
+#deploy i{
+  margin: 20px 40px;
+  font-size: 40px;
+  color: blue;
+}
+#deploy .row p{
+  text-align: left;
+}
+#designed{
+  background-color: #f3f5f9;
+  text-align: center;
+  margin: 40px auto;
+  padding: 30px;
+
+  color:#171559;
+}
+#designed img{
+  width: 70%;
+  height: auto;
+  margin: 40px auto;
+}
+
+#built{
+  margin: 40px auto;
+  padding: 30px;
+  text-align: left;
+  color:#171559;
+}
+#built h2{
+  text-align: center;
+}
+
+
+#built i{
+  margin: 20px 0px;
+  font-size: 40px;
+  color: blue;
+}
+#built a{
+  padding: 20px 0;
+  color: blue;
+}
+#built a:hover{
+  text-decoration: none;
+}
+#tables{
+  background-color: #031b4e;
+  background-image: url("https://www.digitalocean.com/assets/media/homepage/data-center-map-20321538.svg");
+  margin: 80px 0;
+  padding: 30px;
+
+}
+
+#tables h2{
+  color: white;
+  text-align: center;
+  line-height: 60px;
+  padding: 30px 50px;
+}
+
+#tables table tr td{
+
+  border-bottom: 1px solid lightgray;
+  padding: 10px 0 10px 30px;
+  text-align: left;
+  color: white;
+}
+
+#tables table tr td a{
+  text-align: right;
+  padding-left: 100px;
+}
+#teams{
+  background-color: #f3f5f9;
+  text-align: center;
+  margin: 40px auto;
+  padding: 30px;
+
+  color:#171559;
+}
+#teams img{
+  width: 70%;
+  height: auto;
+  margin: 40px auto;
+}
+
+#start{
+  background-image: url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
+  padding: 80px;
+  text-align: center;
+}
+
+
+#start h2{
+
+  color:white;
+}
+#start button{
+  border: 1px solid blue;
+  border-radius:8px;
+  color: blue;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 15px;
+  padding: 20px;
+}
+footer{
+  background-color: #010e28;
+  color: gray;
+  padding: 60px;
+}
+footer h1{
+  color:blue;
+}
+footer h6{
+  color:white;
+}
+footer ul li{
+  list-style: none;
+
+}
+footer ul li a{
+  color: gray;
+
+}
+footer ul li a:hover{
+  text-decoration: none;
+  color: white;
+}
