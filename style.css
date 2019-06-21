@@ -110,6 +110,22 @@ form h3{
 #loghi p{
   text-align: center;
 }
+@media all and (max-width: 767px) {
+  .cont-flex {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  #loghi img{
+    width: 250px;
+    height:auto;
+}
+
+
+@media all and (max-width: 500px) {
+  .cont-flex {
+      flex-direction: column;
+  }
+}
 
 #deploy{
   margin: 40px auto;
@@ -245,6 +261,9 @@ footer{
   background-color: #010e28;
   color: gray;
   padding: 60px;
+  display:flex;
+  justify-content: space-around;
+
 }
 footer h1{
   color:blue;
